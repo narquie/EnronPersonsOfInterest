@@ -1,0 +1,44 @@
+Features: 'salary','networth'
+
+Accuracy: 0.76755       Precision: 0.18171      Recall: 0.07950 F1: 0.11061     F2: 0.08958
+        Total predictions: 11000        True positives:  159    False positives:  716   False negatives: 1841   True negatives: 8284
+
+Feature Importance: [ 0.4445512  0.5554488]
+
+
+
+Features: 'salary','expenses','long_term_incentive','networth'
+
+Accuracy: 0.76518       Precision: 0.27866      Recall: 0.18350 F1: 0.22128     F2: 0.19695
+        Total predictions: 11000        True positives:  367    False positives:  950   False negatives: 1633   True negatives: 8050
+
+Feature Importance: [ 0.08299988  0.34748196  0.10930805  0.46021011]
+
+
+
+Features: 'salary','expenses','long_term_incentive'.'total_payments','bonus','networth'
+
+Accuracy: 0.81823       Precision: 0.35422      Recall: 0.22050 F1: 0.27180     F2: 0.23851
+        Total predictions: 13000        True positives:  441    False positives:  804   False negatives: 1559   True negatives: 10196
+
+Feature Importance: [ 0.          0.33089087  0.          0.13045173  0.53865739  0.        ]
+
+
+
+Features: 'expenses', 'total_payments', 'bonus'
+
+Accuracy: 0.83238       Precision: 0.44346      Recall: 0.35100 F1: 0.39185     F2: 0.36627
+        Total predictions: 13000        True positives:  702    False positives:  881   False negatives: 1298   True negatives: 10119
+
+Feature Importance: [ 0.33089087  0.13045173  0.53865739]
+
+
+ADABOOST
+Features: 'expenses', 'total_payments', 'bonus'
+
+Accuracy: 0.83323       Precision: 0.44574      Recall: 0.34500 F1: 0.38895     F2: 0.36133
+        Total predictions: 13000        True positives:  690    False positives:  858   False negatives: 1310   True negatives: 10142
+
+Feature Importance: [ 0.54  0.2   0.26]
+
+

@@ -1,0 +1,2 @@
+Reference for parameters for Decision Tree classifiers and what they do: http://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html
+Reference for parameters for AdaBoost classifiers and what they do: http://scikit-learn.org/stable/modules/generated/sklearn.ensemble.AdaBoostClassifier.html
